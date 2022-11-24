@@ -1,10 +1,10 @@
 import os
 import enum
 
-# =============================================== #
-# below lines required to create the main folder
-# =============================================== #
-project_name = "hello"                            # Edit only this line to provide name to the folder 
+## =============================================== #
+## below lines required to create the main folder
+## =============================================== #
+project_name = "hello"                             # Edit only this line to provide name to the folder 
 temp_path = os.getcwd()
 path = temp_path + "/" + project_name
 os.mkdir(path)
